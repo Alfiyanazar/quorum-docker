@@ -5,7 +5,7 @@
 1. install docker
 2. install docker-compose
 ```
-###Clone the repository 
+### Clone the repository 
 
 git clone https://github.com/Alfiyanazar/quorum-docker
 
