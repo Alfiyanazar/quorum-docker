@@ -1,0 +1,15 @@
+version: '2'
+services:
+  node_1:
+    image: quorum
+    volumes:
+      - './qdata:/qdata'
+    networks:
+      - public
+    ports:
+      - 8545:8545
+    user: '0:0'
+
+networks:
+  public:
+  private:
